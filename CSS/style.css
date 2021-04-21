@@ -4,12 +4,6 @@ h1{
     color: aliceblue;
 }
 
-*{
-    font-family: 'RocknRoll One', sans-serif;
-    text-align: center;
-    background-color: paleturquoise;
-    list-style-type: none;
-}
 
 @media screen and (min-width: 641px) {
     article{
@@ -27,4 +21,11 @@ h1{
         grid-gap: 20px;
         grid-template-columns: 200px 200px;
     }
+}
+
+*{
+    font-family: 'RocknRoll One', sans-serif;
+    text-align: center;
+    background-color: paleturquoise;
+    list-style-type: none;
 }
