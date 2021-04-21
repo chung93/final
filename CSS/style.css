@@ -11,8 +11,20 @@ h1{
     list-style-type: none;
 }
 
-@media (min-width: 641px) {
+@media screen and (min-width: 641px) {
     article{
         background-color: gainsboro;
+        word-spacing: 300px;
+        color: midnightblue;
+    }
+    footer{
+        background-color: royalblue;
+        color:aliceblue;
+    }
+    .shop-items{
+        justify-content: center;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 200px 200px;
     }
 }
