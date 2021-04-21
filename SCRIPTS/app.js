@@ -7,10 +7,10 @@ const albums = [
 
 function imgloop() {
     var files = [
-        "./Images/Album1.png",
-        "./Images/Album2.png",
-        "./Images/Album3.png",
-        "./Images/Album4.png"
+        "~/Images/Album1.png",
+        "~/Images/Album2.png",
+        "~/Images/Album3.png",
+        "~/Images/Album4.png"
     ]
     for (x = 0; files.length > x; x++) {
         var img = new Image(200, 200);
@@ -18,7 +18,7 @@ function imgloop() {
     }
   }
 
-albums.addEventListener("click", inCart = true)
+img.addEventListener("click", inCart.albums = true)
 if (inCart == true) {
     alert("Item already in cart")
 }
